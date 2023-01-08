@@ -8,7 +8,7 @@ const App = () => {
   }
   return (
     <div id="main">
-      <button id="button-a">Button A</button>
+      <button onClick={clickA} id="button-a">Button A</button>
     </div>
   )
 }
